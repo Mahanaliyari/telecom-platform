@@ -8,7 +8,7 @@ load_dotenv()
 def _required(name: str) -> str:
     value = os.environ.get(name)
     if not value:
-        raise RuntimeError(f"{name} is not set. Add it to your .env file (see .env.example).")
+        raise RuntimeError(f"{name} is not set. Add it to your .env file.")
     return value
 
 

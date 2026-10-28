@@ -57,7 +57,9 @@ def load_records() -> list[dict]:
 
     df["call_start_time"] = pd.to_datetime(df["call_start_time"], utc=True)
     df["call_end_time"] = pd.to_datetime(df["call_end_time"], utc=True)
-    df["call_cost"] = df["call_cost"].map(lambda text: Decimal(text.strip()))
+    df["call_cost"] = df["call_cost"].map(
+    lambda value: Decimal(str(value).strip())
+)
 
     return df.to_dict(orient="records")
 
