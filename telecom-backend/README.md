@@ -89,8 +89,3 @@ Call and analytics endpoints accept `dateFrom`, `dateTo`, and `city`. Admins can
 
 Set `VITE_API_BASE_URL` in the frontend `.env` file to `http://localhost:8000/api/v1` for local development. For deployment, set it to the deployed HTTPS API base URL and set `CORS_ORIGINS` to the exact deployed frontend origin(s).
 
-## Security notes
-
-- Never commit `.env`, database passwords or JWT secrets.
-- The frontend stores the bearer token in `sessionStorage`, which is cleared when the browser tab session ends. For production use with sensitive data, prefer an HttpOnly, Secure, SameSite cookie architecture and an appropriate CSRF strategy.
-- Use HTTPS in production, rotate any secret that has been exposed, and use managed database credentials in deployment.
