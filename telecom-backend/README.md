@@ -1,6 +1,6 @@
-# Telecom Intelligence Platform API
+# Telecom Platform API
 
-FastAPI and PostgreSQL backend for the Week 3 London Success Academy telecom CDR assignment.
+FastAPI and PostgreSQL backend for telecom platform.
 
 ## Features
 
