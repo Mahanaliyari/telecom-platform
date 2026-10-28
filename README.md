@@ -1,6 +1,6 @@
 # Telecom Platform
 
-This bundle contains the existing Week 2 React dashboard updated to use the Week 3 FastAPI/PostgreSQL backend.
+This bundle contains the complete Telecom Platform project, including the frontend and backend folders.
 
 ## Project layout
 

@@ -1,6 +1,6 @@
 # Call Analytics Dashboard
 
-React + TypeScript + Vite dashboard for the Week 2/Week 3 telecom CDR project. The Week 3 version replaces the Week 2 MockAPI fetch with a JWT-authenticated FastAPI backend and PostgreSQL analytics.
+React + TypeScript + Vite dashboard for telecom project.
 
 ## Features
 
