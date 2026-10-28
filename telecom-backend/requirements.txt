@@ -1,0 +1,10 @@
+sqlalchemy
+psycopg[binary]
+pandas
+openpyxl
+python-dotenv
+fastapi
+uvicorn[standard]
+pyjwt
+bcrypt
+email-validator
