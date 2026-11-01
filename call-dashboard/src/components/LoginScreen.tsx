@@ -35,7 +35,7 @@ export default function LoginScreen({ onAuthenticated }: { onAuthenticated: (use
       <div className="grid w-full max-w-5xl overflow-hidden rounded-3xl border border-slate-800 bg-slate-900 shadow-2xl md:grid-cols-2">
         <section className="hidden flex-col justify-between bg-gradient-to-br from-indigo-600 via-blue-700 to-slate-900 p-10 md:flex">
           <div className="flex items-center gap-3"><span className="rounded-xl bg-white/15 p-3"><Activity size={24} /></span><span className="font-semibold tracking-wide"></span></div>
-          <div><h1 className="text-4xl font-bold leading-tight">Telecom analytics</h1><p className="mt-5 max-w-sm text-blue-100">A secure workspace for call activity, operational trends and telecom insights.</p></div>
+          <div><h1 className="text-4xl font-bold leading-tight">Telecom Platform</h1><p className="mt-5 max-w-sm text-blue-100">A secure workspace for call activity, operational trends and telecom insights.</p></div>
           <div className="flex items-center gap-2 text-sm text-blue-100"><ShieldCheck size={18} /> Protected access with role-based permissions</div>
         </section>
         <section className="p-7 sm:p-10">

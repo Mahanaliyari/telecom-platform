@@ -16,4 +16,4 @@ def list_users(
     limit: Annotated[int, Query(ge=1, le=200, description="How many users to return.")] = 100,
 ):
     items, total = users.list_users(db, limit)
-    return UserList(total=total, items=items)
+    return UserList(total=total, items=items) # type: ignore
