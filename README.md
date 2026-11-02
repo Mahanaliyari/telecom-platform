@@ -2,6 +2,8 @@
 
 This bundle contains the complete Telecom Platform project, including the frontend and backend folders.
 
+- **[Live Demo](https://telecom-platform.vercel.app/)**
+
 ## Project layout
 
 - `call-dashboard/` — React, TypeScript, Vite, Tailwind and Recharts frontend.
